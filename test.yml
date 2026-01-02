@@ -1,0 +1,13 @@
+name: Test Workflow
+  on:
+    push:
+    workflow_dispatch:  # Allows manual trigger
+
+  jobs:
+    test:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Hello
+          run: |
+            echo "Testing CIPulse!"
+            sleep 10  # Simulates some work
