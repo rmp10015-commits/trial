@@ -1,3 +1,3 @@
 # trial
 
-trial run
+trial ru
